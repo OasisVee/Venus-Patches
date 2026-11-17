@@ -56,6 +56,7 @@
     if (features.clickableMentions) selectModules([1392, 2068, 2119, 12337]);
     if (features.expandBar) selectModules([584, 1392, 2068, 2119, 12337, 12338, 12887, 12818]);
     if (features.silentLeave) selectModules([2068, 7290]);
+    if (features.keyIntercept) selectModules([1392, 2068, 7445]);
     if (features.silentEdit || features.silentDelete) selectModules([584, 1392, 5532, 7445]);
     if (features.localEdit) selectModules([584, 1392, 5532, 8013, 9978]);
     if (features.customIdle) selectModules([1087]);
@@ -98,7 +99,7 @@
         accountSwitcher:false, accountSwitcherYouBar:true, accountSwitcherShare:false, accountSwitcherNotify:true, appIcons:false, nitroThemes:false, customThemes:false, customThemesBackground:true, materialYou:false, materialYouColor:"wallpaper", materialYouTint:"balanced",
         iconPacks:false, iconPacksTheme:true,
         messageHighlight:false, messageHighlightThickness:2, messageHighlightBrightness:50, messageHighlightPingColor:"default", serverInfo:false, serverInfoFriends:true, serverEdit:false,
-        fixEmbeds:false, fixEmbedsSites:"", fixEmbedsOptions:"", tenorGifs:false, tenorGifsSource:"both", hideBlocked:false, hideBlockedBlocked:true, hideBlockedIgnored:true, hideBlockedReplies:false, hideBlockedCloseDms:false, bulkDelete:false, bulkDeleteConfirm:true, bulkDeleteIncludeCached:true, experiments:false, noHandsfree:false, voiceOptions:false, voiceOptionsVolume:false, voiceOptionsVolumeLevel:50, voiceOptionsOutput:"default", voiceOptionsJoinSound:true, voiceOptionsLeaveSound:true, voiceOptionsSoundVolume:100, voiceOptionsExit:false, voiceOptionsExitSound:"", cleanChannels:false, cleanChannelsEmoji:true, cleanChannelsSymbols:true, cleanChannelsFonts:true, cleanChannelsSpaces:false, anonFiles:false, staffTag:false, staffTagOwner:true, staffTagAdmin:true, staffTagManager:true, staffTagMod:true, staffTagCrown:true, removedAlerts:false, removedAlertsFriends:true, removedAlertsServers:true, removedAlertsClosed:true, removedAlertsPush:false, fullImages:false, fullImagesChat:true, fullImagesViewer:true, fullImagesGifs:false, fullImagesAvatars:true, alwaysTrust:false, alwaysTrustLinks:true, alwaysTrustFiles:true, noConfirmPin:false, clickableMentions:false, expandBar:false, expandBarSending:true, expandBarChats:true, silentLeave:false, silentEdit:false, silentEditNotice:true, silentDelete:false, localEdit:false, localEditMark:true, guildLurk:false, guildLurkIds:"", quietReplies:false, viewRaw:false, viewRawMessages:true, viewRawChannels:true, viewRawServers:true, viewRawPeople:true, viewRawRoles:true, viewRawHideContact:true, viewRawWrap:true, timeoutDuration:false, dndBanners:false, voiceDownload:false, cloneExpressions:false, listenAlong:false, listenAlongOffset:0, backgroundMedia:false, backgroundMediaAudio:true, backgroundMediaVideo:true, backgroundMediaSkip:10, landscapeFull:false, quietRepliesGuilds:true, quietRepliesGroups:true, quietRepliesMentioned:false, compressUploads:false, compressUploadsPhotos:true, compressUploadsVideos:true, compressUploadsAudio:true, hideAnything:false, hideAnythingSpots:"", fakeDeafen:false, fakeDeafenMuteMic:true, language:"auto", hiddenFeatures:"",
+        fixEmbeds:false, fixEmbedsSites:"", fixEmbedsOptions:"", tenorGifs:false, tenorGifsSource:"both", hideBlocked:false, hideBlockedBlocked:true, hideBlockedIgnored:true, hideBlockedReplies:false, hideBlockedCloseDms:false, bulkDelete:false, bulkDeleteConfirm:true, bulkDeleteIncludeCached:true, experiments:false, noHandsfree:false, voiceOptions:false, voiceOptionsVolume:false, voiceOptionsVolumeLevel:50, voiceOptionsOutput:"default", voiceOptionsJoinSound:true, voiceOptionsLeaveSound:true, voiceOptionsSoundVolume:100, voiceOptionsExit:false, voiceOptionsExitSound:"", cleanChannels:false, cleanChannelsEmoji:true, cleanChannelsSymbols:true, cleanChannelsFonts:true, cleanChannelsSpaces:false, anonFiles:false, staffTag:false, staffTagOwner:true, staffTagAdmin:true, staffTagManager:true, staffTagMod:true, staffTagCrown:true, removedAlerts:false, removedAlertsFriends:true, removedAlertsServers:true, removedAlertsClosed:true, removedAlertsPush:false, fullImages:false, fullImagesChat:true, fullImagesViewer:true, fullImagesGifs:false, fullImagesAvatars:true, alwaysTrust:false, alwaysTrustLinks:true, alwaysTrustFiles:true, noConfirmPin:false, clickableMentions:false, expandBar:false, expandBarSending:true, expandBarChats:true, silentLeave:false, silentEdit:false, silentEditNotice:true, silentDelete:false, localEdit:false, localEditMark:true, guildLurk:false, guildLurkIds:"", quietReplies:false, viewRaw:false, viewRawMessages:true, viewRawChannels:true, viewRawServers:true, viewRawPeople:true, viewRawRoles:true, viewRawHideContact:true, viewRawWrap:true, timeoutDuration:false, dndBanners:false, voiceDownload:false, cloneExpressions:false, listenAlong:false, listenAlongOffset:0, backgroundMedia:false, backgroundMediaAudio:true, backgroundMediaVideo:true, backgroundMediaSkip:10, landscapeFull:false, quietRepliesGuilds:true, quietRepliesGroups:true, quietRepliesMentioned:false, compressUploads:false, compressUploadsPhotos:true, compressUploadsVideos:true, compressUploadsAudio:true, hideAnything:false, hideAnythingSpots:"", fakeDeafen:false, fakeDeafenMuteMic:true, keyIntercept:false, keyInterceptGag:false, keyInterceptPet:false, keyInterceptBimbo:false, keyInterceptHorny:false, keyInterceptDrone:false, keyInterceptUwu:false, keyInterceptCensored:false, keyInterceptRules:false, keyInterceptPetType:"puppy", keyInterceptPetAmount:50, keyInterceptBimboLength:12, keyInterceptDroneTerm:"Drone", keyInterceptDroneHeader:"Acknowledged", keyInterceptDroneFooter:"Compliance complete", keyInterceptDroneHealth:100, keyInterceptCensorChar:"*", keyInterceptCensorWords:"", keyInterceptRulesText:"", keyInterceptScope:"everywhere", keyInterceptScopeIds:"", language:"auto", hiddenFeatures:"",
         hypeSquad:false, customIdle:false, customIdleMinutes:10, pauseInvites:false, fastDeleteChannels:false, fastDeleteChannelsConfirm:true, fastDeleteChannelsMenu:true, mutualGroupDMs:false, platformSpoof:false, platformSpoofDevice:"desktop" };
     // The settings every feature starts from, for Reset to defaults on the Backup page.
     let DEFAULT_SETTINGS = null;
@@ -116,7 +117,7 @@
             accountSwitcher: false, accountSwitcherYouBar: true, accountSwitcherShare: false, accountSwitcherNotify: true, appIcons: false, nitroThemes: false, customThemes: false, customThemesBackground: true, materialYou: false, materialYouColor: "wallpaper", materialYouTint: "balanced",
             iconPacks: false, iconPacksTheme: true,
             messageHighlight: false, messageHighlightThickness: 2, messageHighlightBrightness: 50, messageHighlightPingColor: "default", serverInfo: false, serverInfoFriends: true, serverEdit: false,
-            fixEmbeds: false, fixEmbedsSites: "", fixEmbedsOptions: "", tenorGifs: false, tenorGifsSource: "both", hideBlocked: false, hideBlockedBlocked: true, hideBlockedIgnored: true, hideBlockedReplies: false, hideBlockedCloseDms: false, bulkDelete: false, bulkDeleteConfirm: true, bulkDeleteIncludeCached: true, experiments: false, noHandsfree: false, voiceOptions: false, voiceOptionsVolume: false, voiceOptionsVolumeLevel: 50, voiceOptionsOutput: "default", voiceOptionsJoinSound: true, voiceOptionsLeaveSound: true, voiceOptionsSoundVolume: 100, voiceOptionsExit: false, voiceOptionsExitSound: "", cleanChannels: false, cleanChannelsEmoji: true, cleanChannelsSymbols: true, cleanChannelsFonts: true, cleanChannelsSpaces: false, anonFiles: false, staffTag: false, staffTagOwner: true, staffTagAdmin: true, staffTagManager: true, staffTagMod: true, staffTagCrown: true, removedAlerts: false, removedAlertsFriends: true, removedAlertsServers: true, removedAlertsClosed: true, removedAlertsPush: false, fullImages: false, fullImagesChat: true, fullImagesViewer: true, fullImagesGifs: false, fullImagesAvatars: true, alwaysTrust: false, alwaysTrustLinks: true, alwaysTrustFiles: true, noConfirmPin: false, clickableMentions: false, expandBar: false, expandBarSending: true, expandBarChats: true, silentLeave: false, silentEdit: false, silentEditNotice: true, silentDelete: false, localEdit: false, localEditMark: true, guildLurk: false, guildLurkIds: "", quietReplies: false, viewRaw: false, viewRawMessages: true, viewRawChannels: true, viewRawServers: true, viewRawPeople: true, viewRawRoles: true, viewRawHideContact: true, viewRawWrap: true, timeoutDuration: false, dndBanners: false, voiceDownload: false, cloneExpressions: false, listenAlong: false, listenAlongOffset: 0, backgroundMedia: false, backgroundMediaAudio: true, backgroundMediaVideo: true, backgroundMediaSkip: 10, landscapeFull: false, quietRepliesGuilds: true, quietRepliesGroups: true, quietRepliesMentioned: false, compressUploads: false, compressUploadsPhotos: true, compressUploadsVideos: true, compressUploadsAudio: true, hideAnything: false, hideAnythingSpots: "", fakeDeafen: false, fakeDeafenMuteMic: true, language: "auto", hiddenFeatures: "",
+            fixEmbeds: false, fixEmbedsSites: "", fixEmbedsOptions: "", tenorGifs: false, tenorGifsSource: "both", hideBlocked: false, hideBlockedBlocked: true, hideBlockedIgnored: true, hideBlockedReplies: false, hideBlockedCloseDms: false, bulkDelete: false, bulkDeleteConfirm: true, bulkDeleteIncludeCached: true, experiments: false, noHandsfree: false, voiceOptions: false, voiceOptionsVolume: false, voiceOptionsVolumeLevel: 50, voiceOptionsOutput: "default", voiceOptionsJoinSound: true, voiceOptionsLeaveSound: true, voiceOptionsSoundVolume: 100, voiceOptionsExit: false, voiceOptionsExitSound: "", cleanChannels: false, cleanChannelsEmoji: true, cleanChannelsSymbols: true, cleanChannelsFonts: true, cleanChannelsSpaces: false, anonFiles: false, staffTag: false, staffTagOwner: true, staffTagAdmin: true, staffTagManager: true, staffTagMod: true, staffTagCrown: true, removedAlerts: false, removedAlertsFriends: true, removedAlertsServers: true, removedAlertsClosed: true, removedAlertsPush: false, fullImages: false, fullImagesChat: true, fullImagesViewer: true, fullImagesGifs: false, fullImagesAvatars: true, alwaysTrust: false, alwaysTrustLinks: true, alwaysTrustFiles: true, noConfirmPin: false, clickableMentions: false, expandBar: false, expandBarSending: true, expandBarChats: true, silentLeave: false, silentEdit: false, silentEditNotice: true, silentDelete: false, localEdit: false, localEditMark: true, guildLurk: false, guildLurkIds: "", quietReplies: false, viewRaw: false, viewRawMessages: true, viewRawChannels: true, viewRawServers: true, viewRawPeople: true, viewRawRoles: true, viewRawHideContact: true, viewRawWrap: true, timeoutDuration: false, dndBanners: false, voiceDownload: false, cloneExpressions: false, listenAlong: false, listenAlongOffset: 0, backgroundMedia: false, backgroundMediaAudio: true, backgroundMediaVideo: true, backgroundMediaSkip: 10, landscapeFull: false, quietRepliesGuilds: true, quietRepliesGroups: true, quietRepliesMentioned: false, compressUploads: false, compressUploadsPhotos: true, compressUploadsVideos: true, compressUploadsAudio: true, hideAnything: false, hideAnythingSpots: "", fakeDeafen: false, fakeDeafenMuteMic: true, keyIntercept: false, keyInterceptGag: false, keyInterceptPet: false, keyInterceptBimbo: false, keyInterceptHorny: false, keyInterceptDrone: false, keyInterceptUwu: false, keyInterceptCensored: false, keyInterceptRules: false, keyInterceptPetType: "puppy", keyInterceptPetAmount: 50, keyInterceptBimboLength: 12, keyInterceptDroneTerm: "Drone", keyInterceptDroneHeader: "Acknowledged", keyInterceptDroneFooter: "Compliance complete", keyInterceptDroneHealth: 100, keyInterceptCensorChar: "*", keyInterceptCensorWords: "", keyInterceptRulesText: "", keyInterceptScope: "everywhere", keyInterceptScopeIds: "", language: "auto", hiddenFeatures: "",
             hypeSquad: false, customIdle: false, customIdleMinutes: 10, pauseInvites: false, fastDeleteChannels: false, fastDeleteChannelsConfirm: true, fastDeleteChannelsMenu: true, mutualGroupDMs: false, platformSpoof: false, platformSpoofDevice: "desktop"
         }));
     }
@@ -468,6 +469,7 @@
         if (key === "hideAnythingSpots") return hideSpotsText(value);
         if (key === "materialYouColor") return myIsColor(value) ? value.toLowerCase() : undefined;
         if (key === "materialYouTint") return MY_TINTS.includes(value) ? value : undefined;
+        if (/^keyIntercept[A-Z]/.test(key)) return keyInterceptAccepted(key, value);
         return typeof value === "number" && !Number.isFinite(value) ? undefined : value;
     }
     function setSetting(key, value) {
@@ -586,6 +588,13 @@
             settings[key] = clean; dirty.add(key); save(); notify(key);
             if (clean === "wallpaper" && enabled("materialYou")) myReadSystem();
             customThemesApply(); return true;
+        }
+        // Key Intercept: every setting that isn't a switch is cleaned up by keyInterceptAccepted, so a bad value never gets saved.
+        if (/^keyIntercept[A-Z]/.test(key) && typeof settings[key] !== "boolean") {
+            const clean = acceptedSetting(key, value);
+            if (clean === undefined) return false;
+            if (settings[key] === clean && status.storage !== "loading" && status.storage !== "waiting") return true;
+            settings[key] = clean; dirty.add(key); save(); notify(key); return true;
         }
         if (key === "noDeleteLimit") {
             const limit = deleteLimit(value);
@@ -1180,7 +1189,7 @@
     const featureFor = key => {
         const cached = featureTable[key];
         if (cached !== undefined) return cached;
-        return featureTable[key] = key === "reviewWarning" ? "reviewDB" : key === "emojis" || key === "stickers" || key === "hyperlinks" ? "freeNitro" : /^noDelete[A-Z]/.test(key) ? "noDelete" : /^pi[A-Z]/.test(key) ? "platformIndicators" : key === "pastelAll" || key === "pastelContent" ? "pastelize" : key === "readAllMode" ? "readAll" : /^compressUploads[A-Z]/.test(key) ? "compressUploads" : /^quests[A-Z]/.test(key) ? "quests" : /^badges[A-Z]/.test(key) ? "badges" : /^gesture[A-Z]/.test(key) ? "gestures" : /^translate[A-Z]/.test(key) ? "translate" : /^removedAlerts[A-Z]/.test(key) ? "removedAlerts" : /^userNotif[A-Z]/.test(key) ? "userNotif" : /^accountSwitcher[A-Z]/.test(key) ? "accountSwitcher" : /^hiddenChannels[A-Z]/.test(key) ? "hiddenChannels" : /^customThemes[A-Z]/.test(key) ? "customThemes" : /^materialYou[A-Z]/.test(key) ? "materialYou" : /^iconPacks[A-Z]/.test(key) ? "iconPacks" : /^messageHighlight[A-Z]/.test(key) ? "messageHighlight" : /^serverInfo[A-Z]/.test(key) ? "serverInfo" : /^fixEmbeds[A-Z]/.test(key) ? "fixEmbeds" : /^tenorGifs[A-Z]/.test(key) ? "tenorGifs" : /^hideBlocked[A-Z]/.test(key) ? "hideBlocked" : /^bulkDelete[A-Z]/.test(key) ? "bulkDelete" : /^expandBar[A-Z]/.test(key) ? "expandBar" : key === "systemFontSource" ? "systemFont" : key === "systemEmojiSource" ? "systemEmoji" : /^cleanChannels[A-Z]/.test(key) ? "cleanChannels" : /^voiceOptions[A-Z]/.test(key) ? "voiceOptions" : /^anonFiles[A-Z]/.test(key) ? "anonFiles" : /^staffTag[A-Z]/.test(key) ? "staffTag" : /^fullImages[A-Z]/.test(key) ? "fullImages" : /^alwaysTrust[A-Z]/.test(key) ? "alwaysTrust" : /^quietReplies[A-Z]/.test(key) ? "quietReplies" : /^viewRaw[A-Z]/.test(key) ? "viewRaw" : /^hideAnything[A-Z]/.test(key) ? "hideAnything" : /^guildLurk[A-Z]/.test(key) ? "guildLurk" : /^customIdle[A-Z]/.test(key) ? "customIdle" : /^fastDeleteChannels[A-Z]/.test(key) ? "fastDeleteChannels" : /^platformSpoof[A-Z]/.test(key) ? "platformSpoof" : /^silentEdit[A-Z]/.test(key) ? "silentEdit" : /^localEdit[A-Z]/.test(key) ? "localEdit" : /^listenAlong[A-Z]/.test(key) ? "listenAlong" : /^backgroundMedia[A-Z]/.test(key) ? "backgroundMedia" : /^fakeDeafen[A-Z]/.test(key) ? "fakeDeafen" : key;
+        return featureTable[key] = key === "reviewWarning" ? "reviewDB" : key === "emojis" || key === "stickers" || key === "hyperlinks" ? "freeNitro" : /^noDelete[A-Z]/.test(key) ? "noDelete" : /^pi[A-Z]/.test(key) ? "platformIndicators" : key === "pastelAll" || key === "pastelContent" ? "pastelize" : key === "readAllMode" ? "readAll" : /^compressUploads[A-Z]/.test(key) ? "compressUploads" : /^quests[A-Z]/.test(key) ? "quests" : /^badges[A-Z]/.test(key) ? "badges" : /^gesture[A-Z]/.test(key) ? "gestures" : /^translate[A-Z]/.test(key) ? "translate" : /^removedAlerts[A-Z]/.test(key) ? "removedAlerts" : /^userNotif[A-Z]/.test(key) ? "userNotif" : /^accountSwitcher[A-Z]/.test(key) ? "accountSwitcher" : /^hiddenChannels[A-Z]/.test(key) ? "hiddenChannels" : /^customThemes[A-Z]/.test(key) ? "customThemes" : /^materialYou[A-Z]/.test(key) ? "materialYou" : /^iconPacks[A-Z]/.test(key) ? "iconPacks" : /^messageHighlight[A-Z]/.test(key) ? "messageHighlight" : /^serverInfo[A-Z]/.test(key) ? "serverInfo" : /^fixEmbeds[A-Z]/.test(key) ? "fixEmbeds" : /^tenorGifs[A-Z]/.test(key) ? "tenorGifs" : /^hideBlocked[A-Z]/.test(key) ? "hideBlocked" : /^bulkDelete[A-Z]/.test(key) ? "bulkDelete" : /^expandBar[A-Z]/.test(key) ? "expandBar" : key === "systemFontSource" ? "systemFont" : key === "systemEmojiSource" ? "systemEmoji" : /^cleanChannels[A-Z]/.test(key) ? "cleanChannels" : /^voiceOptions[A-Z]/.test(key) ? "voiceOptions" : /^anonFiles[A-Z]/.test(key) ? "anonFiles" : /^staffTag[A-Z]/.test(key) ? "staffTag" : /^fullImages[A-Z]/.test(key) ? "fullImages" : /^alwaysTrust[A-Z]/.test(key) ? "alwaysTrust" : /^quietReplies[A-Z]/.test(key) ? "quietReplies" : /^viewRaw[A-Z]/.test(key) ? "viewRaw" : /^hideAnything[A-Z]/.test(key) ? "hideAnything" : /^guildLurk[A-Z]/.test(key) ? "guildLurk" : /^keyIntercept[A-Z]/.test(key) ? "keyIntercept" : /^customIdle[A-Z]/.test(key) ? "customIdle" : /^fastDeleteChannels[A-Z]/.test(key) ? "fastDeleteChannels" : /^platformSpoof[A-Z]/.test(key) ? "platformSpoof" : /^silentEdit[A-Z]/.test(key) ? "silentEdit" : /^localEdit[A-Z]/.test(key) ? "localEdit" : /^listenAlong[A-Z]/.test(key) ? "listenAlong" : /^backgroundMedia[A-Z]/.test(key) ? "backgroundMedia" : /^fakeDeafen[A-Z]/.test(key) ? "fakeDeafen" : key;
     };
     // Section titles are read whenever Discord draws the list, so they follow the language too. "Venus" is a name.
     function section(label, keys) {
@@ -1215,7 +1224,7 @@
         hiddenChannels:[8495, "LockIcon"], systemFont:[16730, "LettersIcon"], systemEmoji:[13827, "ChatSmileIcon"],
         youBarSettings:[7368, "SettingsIcon"], quests:[13929, "QuestsIcon"],
         badges:[9211, "TrophyIcon"], userNotif:[9045, "BellIcon"], accountSwitcher:[8489, "GroupIcon"], appIcons:[8506, "AppsIcon"],
-        compressUploads:[11636, "FileUpIcon"], customThemes:[16412, "EyeDropperIcon"], iconPacks:[11449, "ImageSparkleIcon"], messageHighlight:[17627, "PaintbrushThinIcon"], serverInfo:[5145, "CircleInformationIcon"], serverEdit:[10023, "PencilIcon"], fixEmbeds:[13836, "EmbedIcon"], tenorGifs:[10051, "GifIcon"], nitroThemes:[11733, "SparklesIcon"], materialYou:[16320, "PaintPaletteIcon"], hideBlocked:[11619, "ChatShieldIcon"], bulkDelete:[7144, "CircleCheckIcon"], experiments:[16650, "BeakerIcon"], cleanChannels:[12158, "MagicWandIcon"], noHandsfree:[13214, "HeadphonesIcon"], voiceOptions:[8501, "VoiceNormalIcon"], staffTag:[10563, "CrownIcon"], removedAlerts:[5135, "UserMinusIcon"], hideAnything:[10561, "XLargeIcon"], fullImages:[12328, "ImagesIcon"], alwaysTrust:[10733, "ShieldIcon"], noConfirmPin:[10641, "PinIcon"], clickableMentions:[8490, "AtIcon"], expandBar:[16089, "FullscreenEnterIcon"], quietReplies:[10654, "BellSlashIcon"], viewRaw:[12003, "FileIcon"], timeoutDuration:[5150, "ClockIcon"], dndBanners:[13603, "BellZIcon"], voiceDownload:[5143, "DownloadIcon"], cloneExpressions:[11657, "ImagePlusIcon"], listenAlong:[13214, "HeadphonesIcon"], backgroundMedia:[8674, "PlayIcon"], landscapeFull:[16089, "FullscreenEnterIcon"], silentLeave:[11384, "DoorExitIcon"], guildLurk:[6929, "EyeIcon"], silentEdit:[13745, "PencilSparkleIcon"], silentDelete:[5148, "TrashIcon"], localEdit:[10023, "PencilIcon"],
+        compressUploads:[11636, "FileUpIcon"], customThemes:[16412, "EyeDropperIcon"], iconPacks:[11449, "ImageSparkleIcon"], messageHighlight:[17627, "PaintbrushThinIcon"], serverInfo:[5145, "CircleInformationIcon"], serverEdit:[10023, "PencilIcon"], fixEmbeds:[13836, "EmbedIcon"], tenorGifs:[10051, "GifIcon"], nitroThemes:[11733, "SparklesIcon"], materialYou:[16320, "PaintPaletteIcon"], hideBlocked:[11619, "ChatShieldIcon"], bulkDelete:[7144, "CircleCheckIcon"], experiments:[16650, "BeakerIcon"], cleanChannels:[12158, "MagicWandIcon"], noHandsfree:[13214, "HeadphonesIcon"], voiceOptions:[8501, "VoiceNormalIcon"], staffTag:[10563, "CrownIcon"], removedAlerts:[5135, "UserMinusIcon"], hideAnything:[10561, "XLargeIcon"], fullImages:[12328, "ImagesIcon"], alwaysTrust:[10733, "ShieldIcon"], noConfirmPin:[10641, "PinIcon"], clickableMentions:[8490, "AtIcon"], expandBar:[16089, "FullscreenEnterIcon"], quietReplies:[10654, "BellSlashIcon"], viewRaw:[12003, "FileIcon"], timeoutDuration:[5150, "ClockIcon"], dndBanners:[13603, "BellZIcon"], voiceDownload:[5143, "DownloadIcon"], cloneExpressions:[11657, "ImagePlusIcon"], listenAlong:[13214, "HeadphonesIcon"], backgroundMedia:[8674, "PlayIcon"], landscapeFull:[16089, "FullscreenEnterIcon"], silentLeave:[11384, "DoorExitIcon"], keyIntercept:[12158, "MagicWandIcon"], guildLurk:[6929, "EyeIcon"], silentEdit:[13745, "PencilSparkleIcon"], silentDelete:[5148, "TrashIcon"], localEdit:[10023, "PencilIcon"],
         hypeSquad:[18747, "HomeIcon"], customIdle:[14205, "UserClockIcon"], pauseInvites:[8676, "PauseIcon"], fastDeleteChannels:[18679, "ChannelListIcon"], mutualGroupDMs:[8489, "GroupIcon"], platformSpoof:[5133, "UserPlatformIcon"]};
     const venusIcons = new Map();
     function venusIcon(id, name, fallback) {
@@ -1266,6 +1275,7 @@
         clickableMentions:["ClickableMentions", "Mentions", "Profile", "Message bar"],
         expandBar:["Expand", "Collapse", "Message bar", "Composer", "Text box", "Text field", "Tall", "Bigger", "Resize", "Long message", "Arrows"],
         silentLeave:["SilentLeave", "Silent leave", "Group DM", "Leave group"],
+        keyIntercept:["Key Intercept", "Gag", "Pet", "Bimbo", "Horny", "Drone", "UwU", "Censor", "Rules", "Replace", "Voice", "Roleplay"],
         silentEdit:["Silent edit", "Edited", "(edited)", "Edit message", "No edit mark"],
         silentDelete:["Silent delete", "Anti log", "Message logger", "Delete without logs"],
         localEdit:["Local edit", "Edit locally", "Fake message", "Edit other people's messages"],
@@ -1764,6 +1774,7 @@
         toggle("messages", "dndBanners", "Banners in Do Not Disturb", "New messages still pop up at the top while you're on Do Not Disturb, without a sound.");
         toggle("sending", "clickableMentions", "Tap mentions to open profiles", "Tap an @mention in the message bar to see who it is.");
         withOptions("sending", "expandBar", "VENUS_EXPANDBAR", "Expand the message bar", "A button in the corner of the message bar opens it up tall, so you can see more of what you type.", "Expand message bar", ExpandBarSettings);
+        withOptions("sending", "keyIntercept", "VENUS_KEYINTERCEPT", "Key Intercept", "Reshape what you send with modes like gag, pet, UwU and drone.", "Key Intercept", KeyInterceptSettings);
         // People
         withOptions("people", "pastelize", "VENUS_PASTELIZE", "Pastel name colors", "Names without a role color get a soft pastel one.", "Pastel names",
             () => ({page:PastelSettings, sections:[section("Colors", [option("pastelAll", "Replace role colors", "Every name uses its pastel color, even with a role color.", "VENUS_PASTELIZE"),
@@ -20409,6 +20420,257 @@
             footnote("note", "Only servers that allow previews, like Discoverable communities, open this way. You won't show in the member list, and you join to send messages.")];
         return settingsBody(ui, groups);
     }
+    // Key Intercept (based on Key Intercept by supersliser): reshapes what you send with modes like gag, pet, UwU or drone. The modes
+    // and their word lists follow the original plugin, but everything happens on this phone as you send: there is no relay, no
+    // remote editing and no account sync. Links, mentions, channel names, custom emojis, timestamps and code are left as written.
+    // Hooked on sendMessage as the outermost wrapper, so Send long messages splits the final text and Fix link previews sees it.
+    const KI_MODES = ["Gag", "Pet", "Bimbo", "Horny", "Drone", "Uwu", "Censored", "Rules"];
+    const KI_PET_TYPES = ["puppy", "kitty", "cow", "fox", "birb", "bee", "bun"];
+    const KI_PET_WORDS = {puppy:["woof", "ruff", "wruff", "arf"], kitty:["meow", "mrow", "nya", "mreow", "mew"], cow:["moo", "mmmooo"],
+        fox:["yip", "eeeekkkk", "waaaaaaaahh", "eeeee", "grrrrr", "grr-uff", "eeeek"], birb:["tweet", "squark", "chirp", "caw"], bee:["bzzzz", "buzz"], bun:["squeak", "pyon"]};
+    const KI_HORNY = ["hmmph", "nngh", "ahhh", "ooh", "oohh", "mmm", "hehe", "hehehe", "heheh", "eheh", "ehehe", "eheheh", "guhh", "pleasee", "need to cumm", "oh goshh", "ohhh", "cummm", "gggg"];
+    const KI_GARGLE = ["like", "hehe", "uhh", "totally", "so dumbb", "ummm", "hhhhh"];
+    const KI_PRONOUNS = ["i", "you", "he", "she", "it", "we", "they", "is"];
+    const KI_PUNCT = ".,!<>[]{}/?;:'@#~-_\")(*&^%$\u00a3+=`\u00ac|\\";
+    const KI_SCOPES = ["everywhere", "only", "except"];
+    const KI_ID_MAX = 50;
+    // Fenced and inline code: every mode skips it.
+    const KI_CODE = /(```[\s\S]*?(?:```|$)|`[^`\n]*`)/;
+    const kiRulesCache = {text:null, rules:[]};
+    function kiNum(value, min, max, fallback) { const n = Math.round(Number(value)); return Number.isFinite(n) ? Math.max(min, Math.min(max, n)) : fallback; }
+    function kiText(value, max) { return typeof value === "string" ? value.trim().slice(0, max) : ""; }
+    function kiWordList(raw) {
+        if (typeof raw !== "string" || raw.length > 4000) return undefined;
+        const out = [];
+        raw.split(/[\n,]/).forEach(word => { word = word.trim().slice(0, 60); if (word && !out.includes(word) && out.length < 100) out.push(word); });
+        return out.join("\n");
+    }
+    function kiIds() { return settings.keyInterceptScopeIds ? settings.keyInterceptScopeIds.split(",") : []; }
+    function kiIdsText(raw) {
+        if (typeof raw !== "string" || raw.length > 1200) return undefined;
+        const out = [];
+        raw.split(/[\s,]+/).forEach(id => { if (/^\d{17,20}$/.test(id) && !out.includes(id) && out.length < KI_ID_MAX) out.push(id); });
+        return out.join(",");
+    }
+    // A saved or imported value for one Key Intercept setting, cleaned up, or undefined when it can't be used.
+    function keyInterceptAccepted(key, value) {
+        switch (key) {
+            case "keyInterceptPetType": return KI_PET_TYPES.includes(value) ? value : undefined;
+            case "keyInterceptPetAmount": return kiNum(value, 1, 100, 50);
+            case "keyInterceptBimboLength": return kiNum(value, 3, 50, 12);
+            case "keyInterceptDroneHealth": return kiNum(value, 10, 100, 100);
+            case "keyInterceptDroneTerm": case "keyInterceptDroneHeader": case "keyInterceptDroneFooter": return kiText(value, 40) || undefined;
+            case "keyInterceptCensorChar": return kiText(value, 4) || undefined;
+            case "keyInterceptCensorWords": return kiWordList(value);
+            case "keyInterceptRulesText": return typeof value === "string" && value.length <= 4000 ? value.replace(/\r/g, "").replace(/\s+$/, "") : undefined;
+            case "keyInterceptScope": return KI_SCOPES.includes(value) ? value : undefined;
+            case "keyInterceptScopeIds": return kiIdsText(value);
+        }
+        return value;
+    }
+    // Words left alone: links, @everyone and @here, Discord's <@mention>, <#channel>, <:emoji:id> and <t:time> tokens, and :emoji: names.
+    function kiKeep(word) { return /^(?:https?:\/\/|<[^>\s]+>$|:[\w~+-]+:$|@(?:everyone|here)$)/i.test(word); }
+    function kiPlain(text, fn) { return text.split(KI_CODE).map((part, i) => i % 2 ? part : fn(part)).join(""); }
+    // Runs fn on every word outside code, keeping the spaces and line breaks between them. fn may set ctx.stop to end the message there.
+    function kiWords(text, fn) {
+        const ctx = {stop:false};
+        const out = text.split(KI_CODE).map((part, i) => ctx.stop ? "" : i % 2 ? part :
+            part.split(/(\s+)/).map((token, j) => ctx.stop ? "" : j % 2 || !token || kiKeep(token) ? token : fn(token, ctx)).join("")).join("");
+        return ctx.stop ? out.replace(/\s+$/, "") : out;
+    }
+    function kiPick(list) { return list[Math.floor(Math.random() * list.length)]; }
+    function kiRules() {
+        const text = settings.keyInterceptRulesText || "";
+        if (kiRulesCache.text === text) return kiRulesCache.rules;
+        const rules = [];
+        // One rule per line: find => replace, with an optional "@ 50%" for how often it applies.
+        text.split("\n").slice(0, 100).forEach(line => {
+            const m = /^(.+?)\s*=>\s*(.*?)(?:\s+@\s*(\d{1,3})\s*%)?$/.exec(line.trim());
+            if (!m || m[1].length > 200) return;
+            try { rules.push({find:new RegExp(m[1], "gi"), one:new RegExp(m[1], "i"), put:m[2], chance:m[3] == null ? 1 : Math.min(100, Number(m[3])) / 100}); } catch (_) {}
+        });
+        kiRulesCache.text = text; kiRulesCache.rules = rules;
+        return rules;
+    }
+    function kiRulesApply(text) {
+        kiRules().forEach(rule => { text = kiPlain(text, part => part.replace(rule.find, match => Math.random() > rule.chance ? match : match.replace(rule.one, rule.put))); });
+        return text;
+    }
+    function kiUwu(text) {
+        return kiWords(text, word => word.replace(/th/gi, "d").replace(/r|l/gi, "w").replace(/u/gi, "uw").replace(/n([aeiou])/gi, "ny$1").replace(/ove/gi, "uv"));
+    }
+    function kiHorny(text) { return kiWords(text, word => (Math.random() < 0.75 ? kiPick(KI_HORNY) + " " : "") + word); }
+    function kiPet(text) {
+        const words = KI_PET_WORDS[settings.keyInterceptPetType] || KI_PET_WORDS.puppy, amount = kiNum(settings.keyInterceptPetAmount, 1, 100, 50) / 100;
+        return kiWords(text, word => Math.random() < amount ? kiPick(words) : word);
+    }
+    function kiBimbo(text) {
+        const max = kiNum(settings.keyInterceptBimboLength, 3, 50, 12);
+        return kiWords(text, (word, ctx) => {
+            let letters = 0;
+            for (const ch of word) if (!KI_PUNCT.includes(ch)) letters++;
+            // A word that is too long ends the message, cut short.
+            if (letters > max) { ctx.stop = true; return word.slice(0, Math.max(max - 2, 1)) + "uhhhh long words harddd hehe"; }
+            let out = KI_PRONOUNS.includes(word.toLowerCase()) ? word + " like totally" : word;
+            if (Math.random() < 0.1) out += " " + KI_GARGLE[Math.floor(Math.random() * (KI_GARGLE.length - 1))];
+            return out;
+        });
+    }
+    function kiCensor(text) {
+        const mark = settings.keyInterceptCensorChar || "*";
+        (settings.keyInterceptCensorWords || "").split("\n").filter(Boolean).forEach(word => {
+            const hidden = mark.repeat(Math.ceil(word.length / mark.length)), find = new RegExp(word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"), "gi");
+            text = kiPlain(text, part => part.replace(find, () => hidden));
+        });
+        return text;
+    }
+    function kiGag(text) {
+        const keep = "aeiouAEIOUgGhH?!.,:;#*-()~";
+        return kiWords(text, word => Array.from(word).map(ch => keep.includes(ch) ? ch : ch >= "a" && ch <= "z" ? "gh"[Math.floor(Math.random() * 2)] : "GH"[Math.floor(Math.random() * 2)]).join(""));
+    }
+    // Drone talks about itself in the third person, glitches, and wraps each message in a header and a footer. Your next message right
+    // after takes the footer off the last one and carries on in the same block.
+    function kiDrone(text, channelId) {
+        const term = settings.keyInterceptDroneTerm || "Drone", health = kiNum(settings.keyInterceptDroneHealth, 10, 100, 100) / 100;
+        let out = text, since = 0;
+        if (!/(^|\s)https?:\/\//i.test(out)) out = kiPlain(out, part => part.replace(/\bMe\b/gi, () => term).replace(/\bMy\b/gi, "Its'").replace(/\bI am\b/gi, "It is")
+            .replace(/\bI(')?m\b/gi, "It is").replace(/\bI\b/gi, () => term));
+        out = kiWords(out, word => {
+            let body = "";
+            for (const ch of word) {
+                body += ch; since += 1;
+                if (Math.random() + since / 100 - 1 > health && ch !== "`") { since = 0; for (let n = Math.floor(Math.random() * 10); n > 0; n--) body += ch; }
+            }
+            return (Math.random() > health ? Math.random() > 0.5 ? "`beep` " : "`bzzzt` " : "") + body;
+        });
+        let header = settings.keyInterceptDroneHeader || "Acknowledged", footer = settings.keyInterceptDroneFooter || "Compliance complete";
+        if (text.startsWith("**")) { header = "LOUD"; footer = "LOUD COMPLETE"; }
+        else if (text.startsWith("*")) { header = "ACTION"; footer = "ACTION COMPLETE"; }
+        else if (text.startsWith("-#")) { header = "WHISPER"; footer = "WHISPER COMPLETE"; }
+        const tail = "\n`" + footer + "`", store = msgStore || (msgStore = inspectedExport(5532, "default")), me = currentUser();
+        let previous = null;
+        try { const list = store && typeof store.getMessages === "function" ? store.getMessages(channelId) : null; previous = list && typeof list.last === "function" ? list.last() : null; } catch (_) { previous = null; }
+        const join = !!(previous && me && previous.author && previous.author.id === me.id && previous.id && typeof previous.content === "string" &&
+            previous.content.endsWith(tail) && (!previous.state || previous.state === "SENT"));
+        return {content:(join ? "" : "`" + header + "`\n") + out.replace(/\s+$/, "") + tail, edit:join ? {id:previous.id, content:previous.content.slice(0, -tail.length)} : null};
+    }
+    // Rules first, then the voices, then drone last so its header and footer wrap the finished message.
+    function kiApply(text, channelId) {
+        let out = text, edit = null;
+        if (enabled("keyInterceptRules")) out = kiRulesApply(out);
+        if (enabled("keyInterceptUwu")) out = kiUwu(out);
+        if (enabled("keyInterceptHorny")) out = kiHorny(out);
+        if (enabled("keyInterceptPet")) out = kiPet(out);
+        if (enabled("keyInterceptBimbo")) out = kiBimbo(out);
+        if (enabled("keyInterceptCensored")) out = kiCensor(out);
+        if (enabled("keyInterceptGag")) out = kiGag(out);
+        if (enabled("keyInterceptDrone")) { const drone = kiDrone(out, channelId); out = drone.content; edit = drone.edit; }
+        return {content:out, edit};
+    }
+    // Where it works: everywhere, only the listed servers and DMs, or everywhere except them. A server channel counts as its server, a DM as itself.
+    // Chats with "sfw" in the name (but not "nsfw") are always left as written.
+    function kiInScope(channelId) {
+        const mode = settings.keyInterceptScope, channel = channelStore && typeof channelStore.getChannel === "function" ? channelStore.getChannel(channelId) : null;
+        if (!channel) return mode !== "only";
+        const listed = kiIds().includes(String(channel.guild_id || channel.id));
+        if (mode === "only" && !listed || mode === "except" && listed) return false;
+        const name = String(channel.name || "").toLowerCase();
+        return !(name.includes("sfw") && !name.includes("nsfw"));
+    }
+    function keyInterceptSend(orig, self, args) {
+        const message = args[1];
+        if (!enabled("keyIntercept") || !message || typeof message.content !== "string" || !message.content.trim() || !kiInScope(args[0])) return orig.apply(self, args);
+        let result;
+        try { result = kiApply(message.content, args[0]); } catch (error) { dlog("E", "keyIntercept", "couldn't change a message, sent as written:", error); return orig.apply(self, args); }
+        if (!result.content.trim() || result.content === message.content) return orig.apply(self, args);
+        if (result.edit && msgActions && typeof msgActions.editMessage === "function") {
+            try { Promise.resolve(msgActions.editMessage(args[0], result.edit.id, {content:result.edit.content})).catch(() => {}); } catch (_) {}
+        }
+        const next = Array.from(args); next[1] = Object.assign({}, message, {content:result.content});
+        return orig.apply(self, next);
+    }
+    // One text box with a Save button, for a setting you type (single line), or several lines when props.multiline.
+    function KiField(props) {
+        const saved = String(settings[props.setting] == null ? "" : settings[props.setting]);
+        const [draft, setDraft] = React.useState(saved);
+        const ui = reviewUI(), on = enabled("keyIntercept"), Button = inspectedExport(5479, "Button");
+        const changed = draft !== saved && (props.blank || draft.trim().length > 0);
+        const onText = text => setDraft(String(text == null ? "" : text));
+        const save = () => {
+            if (!on || !changed) return;
+            haptic("SELECTION");
+            setSetting(props.setting, props.multiline ? draft : draft.trim());
+            setDraft(String(settings[props.setting] == null ? "" : settings[props.setting]));
+        };
+        const base = {value:draft, autoCapitalize:"none", autoCorrect:false, maxLength:props.max, editable:on, isDisabled:!on};
+        const field = props.multiline ? el(RN.View, {key:"field", style:{gap:10, paddingHorizontal:4}},
+            ui.TextInput ? el(ui.TextInput, Object.assign({onChange:onText, multiline:true, numberOfLines:5}, base)) :
+                el(RN.TextInput, {value:draft, onChangeText:onText, multiline:true, maxLength:props.max, editable:on, style:{fontSize:16, padding:12, minHeight:100, color:"#f2f3f5"}}),
+            Button ? el(Button, {text:tr("Save"), size:"md", variant:"primary", disabled:!on || !changed, onPress:save}) : null) :
+            el(RN.View, {key:"field", style:{paddingHorizontal:4}}, inputWithButton(ui, "input", Object.assign({returnKeyType:"done", onSubmitEditing:save}, base), onText, "Save", save, !on || !changed));
+        return el(RN.View, {style:{gap:8}}, groupTitle("title", props.title), field, props.hint ? footnote("hint", props.hint) : null);
+    }
+    // The servers and DMs for "Only where I add" and "Everywhere except where I add": type an ID, add it, remove it again.
+    function KiIds() {
+        const [draft, setDraft] = React.useState("");
+        const ui = reviewUI(), on = enabled("keyIntercept"), Group = ui.TableRowGroup || RN.View, Row = ui.TableRow;
+        const Press = RN.Pressable || RN.TouchableOpacity || RN.View, Remove = venusIcon(6485, "XSmallIcon");
+        const id = draft.trim(), ids = kiIds(), valid = /^\d{17,20}$/.test(id) && !ids.includes(id) && ids.length < KI_ID_MAX;
+        const add = () => { if (!on || !valid) return; haptic("SELECTION"); setSetting("keyInterceptScopeIds", ids.concat(id).join(",")); setDraft(""); };
+        const rows = Row ? ids.map(item => {
+            let channel = null;
+            try { channel = channelStore && typeof channelStore.getChannel === "function" ? channelStore.getChannel(item) : null; } catch (_) { channel = null; }
+            const guild = guildLurkGuild(item), name = guild && guild.name ? String(guild.name) : channel && channel.name ? String(channel.name) : "";
+            return el(Row, {key:item, label:name || item, subLabel:name ? item : tr("Not loaded yet"), disabled:!on,
+                trailing:el(Press, {onPress:() => setSetting("keyInterceptScopeIds", ids.filter(other => other !== item).join(",")), disabled:!on, hitSlop:12, accessibilityRole:"button",
+                    accessibilityLabel:tr("Remove: {name}", {name:name || item})}, el(Remove, {size:"sm"}))});
+        }) : [];
+        return el(RN.View, {style:{gap:16}},
+            inputWithButton(ui, "input", {value:draft, placeholder:tr("Server or DM ID"), keyboardType:"number-pad", maxLength:20, returnKeyType:"done", onSubmitEditing:add, editable:on, isDisabled:!on},
+                text => setDraft(String(text || "").replace(/[^0-9]/g, "")), "Add", add, !on || !valid),
+            rows.length ? el(Group, {title:tr("Servers and DMs")}, rows) : null);
+    }
+    function KeyInterceptSettings() {
+        useSettings("keyIntercept");
+        const ui = reviewUI();
+        if (!React || !RN) return null;
+        const on = enabled("keyIntercept"), Group = ui.TableRowGroup || RN.View, Switch = ui.TableSwitchRow, Icon = venusIcon(12158, "MagicWandIcon");
+        const percent = n => tr("{n}%", {n});
+        const groups = [
+            on ? null : offCard("status", Icon, "keyIntercept"),
+            el(Group, {key:"modes", title:tr("Modes")}, [
+                switchRow(Switch, "keyInterceptGag", "Gag", "Turns most letters into g and h, like a muffled voice."),
+                switchRow(Switch, "keyInterceptPet", "Pet", "Swaps words for animal sounds."),
+                switchRow(Switch, "keyInterceptBimbo", "Bimbo", "Adds filler words, and cuts the message off at a very long word."),
+                switchRow(Switch, "keyInterceptHorny", "Horny", "Sprinkles breathy sounds between your words."),
+                switchRow(Switch, "keyInterceptDrone", "Drone", "Speaks like an unthinking unit, with a header, a footer and glitches."),
+                switchRow(Switch, "keyInterceptUwu", "UwU", "Speaks in cute baby talk, like \u201chewwo\u201d."),
+                switchRow(Switch, "keyInterceptCensored", "Censored", "Hides the words you list."),
+                switchRow(Switch, "keyInterceptRules", "Custom rules", "Find and replace with your own patterns.")]),
+            radioGroup(ui, "pet", "Pet", "keyInterceptPetType", on, [["puppy", "woof \u00b7 ruff \u00b7 wruff \u00b7 arf"], ["kitty", "meow \u00b7 mrow \u00b7 nya \u00b7 mew"], ["cow", "moo \u00b7 mmmooo"],
+                ["fox", "yip \u00b7 grrrrr \u00b7 eeeek"], ["birb", "tweet \u00b7 chirp \u00b7 caw"], ["bee", "bzzzz \u00b7 buzz"], ["bun", "squeak \u00b7 pyon"]], true),
+            el(PresetOrCustom, {key:"pet-amount", title:tr("How often"), value:kiNum(settings.keyInterceptPetAmount, 1, 100, 50), disabled:!on, placeholder:50, min:1, max:100,
+                inputLabel:tr("Percent, {min} to {max}", {min:1, max:100}), format:percent, presets:[25, 50, 75, 100].map(n => ({value:n, label:percent(n)})),
+                onChange:value => setSetting("keyInterceptPetAmount", value)}),
+            el(PresetOrCustom, {key:"bimbo-length", title:tr("Longest word"), value:kiNum(settings.keyInterceptBimboLength, 3, 50, 12), disabled:!on, placeholder:12, min:3, max:50,
+                inputLabel:tr("Letters, {min} to {max}", {min:3, max:50}), format:String, presets:[8, 12, 20, 30].map(n => ({value:n, label:String(n)})),
+                onChange:value => setSetting("keyInterceptBimboLength", value)}),
+            el(KiField, {key:"drone-term", title:tr("Drone name"), setting:"keyInterceptDroneTerm", max:40}),
+            el(KiField, {key:"drone-header", title:tr("Header"), setting:"keyInterceptDroneHeader", max:40}),
+            el(KiField, {key:"drone-footer", title:tr("Footer"), setting:"keyInterceptDroneFooter", max:40}),
+            el(PresetOrCustom, {key:"drone-health", title:tr("Signal quality"), value:kiNum(settings.keyInterceptDroneHealth, 10, 100, 100), disabled:!on, placeholder:100, min:10, max:100,
+                inputLabel:tr("Percent, {min} to {max}", {min:10, max:100}), format:percent, presets:[100, 75, 50, 25].map(n => ({value:n, label:percent(n)})),
+                onChange:value => setSetting("keyInterceptDroneHealth", value)}),
+            footnote("drone", "The header and footer wrap every Drone message. A message that starts with *, ** or -# gets its own Action, Loud or Whisper labels. A lower signal means more beeps and stuttering letters."),
+            el(KiField, {key:"censor-char", title:tr("Replace with"), setting:"keyInterceptCensorChar", max:4}),
+            el(KiField, {key:"censor-words", title:tr("Words to hide"), setting:"keyInterceptCensorWords", multiline:true, blank:true, max:4000, hint:tr("One word per line.")}),
+            el(KiField, {key:"rules", title:tr("Rules"), setting:"keyInterceptRulesText", multiline:true, blank:true, max:4000,
+                hint:tr("One rule per line, like: colour => color. End with @ 50% to apply it half the time. Patterns are regular expressions that ignore case.")}),
+            radioGroup(ui, "scope", "Where it works", "keyInterceptScope", on, [["everywhere", "Everywhere"], ["only", "Only where I add"], ["except", "Everywhere except where I add"]]),
+            el(KiIds, {key:"ids"}),
+            footnote("note", "Everything happens on this phone as you send, and nobody else can change your modes. Links, mentions, emojis and code stay as written, and chats with sfw in the name are left alone.")];
+        return settingsBody(ui, groups);
+    }
     // Silent edit, Silent delete and Local edit (issues #46 and #129, based on the Silent Edit, Silentdeletee and localedit
     // plugins). Silent edit sends the edited text as a new message and deletes the old one, so nothing says "(edited)";
     // that only makes sense for the newest message in a chat, which is the one the new message lands right under.
@@ -22926,7 +23188,7 @@
             case 14755: return features.fakeDeafen && exports && exports.default ? fakeDeafAttach(exports) : exports;
             case 18341: return features.fakeDeafen ? hookComponent(exports, fakeDeafSwitch, "DeafenSwitch") : exports;
             case 1392:
-                if (exports && exports.default && (features.validUser || features.splitMessages || features.fixEmbeds || features.translate || features.userNotif || features.removedAlerts || features.accountSwitcher || features.appIcons || features.nitroThemes || features.messageHighlight || features.serverInfo || features.noDelete || features.reviewDB || features.platformIndicators || features.hiddenChannels || features.gestures || features.freeNitro || features.badges || features.bulkDelete || features.experiments || features.quietReplies || features.silentEdit || features.silentDelete || features.localEdit))
+                if (exports && exports.default && (features.validUser || features.keyIntercept || features.splitMessages || features.fixEmbeds || features.translate || features.userNotif || features.removedAlerts || features.accountSwitcher || features.appIcons || features.nitroThemes || features.messageHighlight || features.serverInfo || features.noDelete || features.reviewDB || features.platformIndicators || features.hiddenChannels || features.gestures || features.freeNitro || features.badges || features.bulkDelete || features.experiments || features.quietReplies || features.silentEdit || features.silentDelete || features.localEdit))
                     userStore = exports.default;
                 if (features.noDelete || features.reviewDB || features.platformIndicators || features.hiddenChannels) restoreDeleted();
                 return exports;
@@ -23061,6 +23323,8 @@
                     actions = hookExport(actions, "sendMessage", fixEmbedsSend);
                     actions = hookExport(actions, "editMessage", fixEmbedsEdit);
                 }
+                // Key Intercept is outermost: it runs first, so splitting and link fixing both see the finished text.
+                if (features.keyIntercept) actions = hookExport(actions, "sendMessage", keyInterceptSend);
                 msgActions = actions;
                 return replaceValue(exports, "default", actions);
             }
